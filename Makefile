@@ -1,7 +1,7 @@
 runserver:
 	uv run ./mysite/manage.py runserver 
 
-makemigrations:
+migrations:
 	uv run ./mysite/manage.py makemigrations
 
 migrate:
